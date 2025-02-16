@@ -26,6 +26,27 @@ const myFunction = function(){
 }
 
 
-console.log(typeof id);
+// console.log(typeof id);
 
 // console.log();
+
+
+// +++++++++++++++++++++++++++
+
+let myName = "Amit Patro"
+let myNickName = myName
+myNickName = "Shyam Patro"
+// console.log(myName)
+// console.log(myNickName)
+
+let user1 = {
+    email: "google.com",
+    upi: "5656656f56"
+}
+
+let user2 = user1
+    
+user2.email = "insta.com"
+
+console.log(user1.email);
+console.log(user2.email);
